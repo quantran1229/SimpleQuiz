@@ -1,0 +1,9 @@
+jar {
+	manifest {
+		attributes 'Plugin-Class':'choosemulti.MultiChoice'
+	}
+}
+
+dependencies {
+	compile project(':core')
+}

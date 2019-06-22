@@ -1,0 +1,9 @@
+jar {
+	manifest {
+		attributes 'Plugin-Class':'shortquestion.ShortQuestion'
+	}
+}
+
+dependencies {
+	compile project(':core')
+}

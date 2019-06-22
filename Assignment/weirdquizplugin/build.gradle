@@ -1,0 +1,12 @@
+jar {
+	manifest {
+		attributes 'Plugin-Class':'weirdquiz.WeirdQuiz'
+	}
+}
+
+dependencies {
+	compile project(':core')
+	compile project(':multichoiceplugin')
+	compile project(':shortquestionplugin')
+	compile project(':choosemultiplugin')
+}

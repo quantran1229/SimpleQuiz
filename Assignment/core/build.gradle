@@ -1,0 +1,6 @@
+jar {
+	manifest {
+		attributes 'Main-Class':'Assignment.SEC'
+	}
+}
+
